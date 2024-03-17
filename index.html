@@ -208,6 +208,124 @@
         <p class="mb-3 pb-3 text-warning border-bottom">
           No grid classes are necessary for full-width elements.
         </p>
+        <h2 class="mb-2 text-light">Two columns with two nested columns</h2>
+        <p class="mb-3 text-light">
+          Per the documentation, nesting is easy—just put a row of columns
+          within an existing column. This gives you two columns
+          <strong>starting at desktops and scaling to large desktops</strong>,
+          with another two (equal widths) within the larger column.
+        </p>
+        <p class="mb-3 text-light">
+          At mobile device sizes, tablets and down, these columns and their
+          nested columns will stack.
+        </p>
+        <div class="row mb-3 border-bottom">
+          <div
+            class="col-md-8 bg-info border border-primary text-light text-center"
+          >
+            .col-md-8
+            <div class="row">
+              <div
+                class="col-md-6 bg-info border border-primary text-light text-center"
+              >
+                .col-md-6
+              </div>
+              <div
+                class="col-md-6 bg-info border border-primary text-light text-center"
+              >
+                .col-md-6
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 bg-info border border-primary text-light text-center"
+          >
+            .col-md-4
+          </div>
+        </div>
+        <h2 class="mt-4 mb-2 text-light">Mixed: mobile and desktop</h2>
+        <p class="mb-3 text-light">
+          The Bootstrap v5 grid system has six tiers of classes: xs (extra
+          small, this class infix is not used), sm (small), md (medium), lg
+          (large), xl (x-large), and xxl (xx-large). You can use nearly any
+          combination of these classes to create more dynamic and flexible
+          layouts.
+        </p>
+        <p class="mb-3 text-light">
+          Each tier of classes scales up, meaning if you plan on setting the
+          same widths for md, lg, xl and xxl, you only need to specify md.
+        </p>
+        <div class="row">
+          <div
+            class="col-md-8 bg-info border border-primary text-light text-center"
+          >
+            .col-md-8
+          </div>
+          <div
+            class="col-6 col-md-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-md-4
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-6 col-md-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-md-4
+          </div>
+          <div
+            class="col-6 col-md-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-md-4
+          </div>
+          <div
+            class="col-6 col-md-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-md-4
+          </div>
+        </div>
+        <div class="row mb-3 border-bottom">
+          <div
+            class="col-6 bg-info border border-primary text-light text-center"
+          >
+            .col-6
+          </div>
+          <div
+            class="col-6 bg-info border border-primary text-light text-center"
+          >
+            .col-6
+          </div>
+        </div>
+        <h2 class="mt-4 mb-2 text-light">Mixed: mobile, tablet, and desktop</h2>
+        <div class="row">
+          <div
+            class="col-sm-6 col-lg-8 bg-info border border-primary text-light text-center"
+          >
+            .col-sm-6 .col-lg-8
+          </div>
+          <div
+            class="col-sm-6 col-lg-4 bg-info border border-primary text-light text-center"
+          >
+            .col-sm-6 .col-lg-4
+          </div>
+        </div>
+        <div class="row mb-3 border-bottom">
+          <div
+            class="col-6 col-sm-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-sm-4
+          </div>
+          <div
+            class="col-6 col-sm-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-sm-4
+          </div>
+          <div
+            class="col-6 col-sm-4 bg-info border border-primary text-light text-center"
+          >
+            .col-6 .col-sm-4
+          </div>
+        </div>
       </div>
       <div class="container">
         <h2 class="mt-4 mb-2 text-light">Containers</h2>
